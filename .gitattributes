@@ -1,0 +1,8 @@
+* text=auto
+
+# git
+.gitignore text
+.gitignore plugins
+
+.tmux.conf eol=lf
+.tmux.conf.local eol=lf

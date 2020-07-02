@@ -1,0 +1,16 @@
+pane	0	1	:zsh	1	:*	1	:/Users/bharatsoni/Documents/personal/jarvis2	1	zsh	:
+pane	ML	1	:octave	0	:-	1	:/Users/bharatsoni/Documents/personal/ML/coursera-1/week-2/exercies/ex3	1	zsh	:
+pane	ML	2	:Editor	1	:*	1	:/Users/bharatsoni/Documents/personal/ML/coursera-1/week-2/exercies/ex3	1	nvim	:nvim .
+pane	Rudra	1	:Deployment	0	:-	1	:/Users/bharatsoni/Documents/personal/jarvis2/server	0	zsh	:
+pane	Rudra	1	:Deployment	0	:-	2	:/Users/bharatsoni/Documents/personal/jarvis2/client	1	zsh	:
+pane	Rudra	2	:Client	0	:	1	:/Users/bharatsoni/Documents/personal/jarvis2/client	1	nvim	:nvim .
+pane	Rudra	3	:Server	0	:	1	:/Users/bharatsoni/Documents/personal/jarvis2/server	1	nvim	:nvim .
+pane	Rudra	4	:nvim	1	:*	1	:/Users/bharatsoni/Documents/personal/jarvis2	1	nvim	:nvim /Users/bharatsoni/.tmux.conf.local
+window	0	1	1	:*	addd,212x50,0,0,0
+window	ML	1	0	:-	ade3,212x50,0,0,6
+window	ML	2	1	:*	ade4,212x50,0,0,7
+window	Rudra	1	0	:-	eafd,212x50,0,0{106x50,0,0,1,105x50,107,0,3}
+window	Rudra	2	0	:	ade1,212x50,0,0,4
+window	Rudra	3	0	:	ade2,212x50,0,0,5
+window	Rudra	4	1	:*	ade5,212x50,0,0,8
+state	Rudra	
