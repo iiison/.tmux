@@ -14,8 +14,10 @@ $ cd ~
 $ git clone 
 $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
+Exit tmux and restart again.
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
 
 [customize]: #enabling-the-powerline-look
