@@ -1,0 +1,14 @@
+pane	ML	1	:octave	1	:*	1	:/Users/bharatsoni/Documents/personal/ML/coursera-1/week-2/exercies/ex3	1	zsh	:
+pane	ML	2	:Editor	0	:#	1	:/Users/bharatsoni/Documents/personal/ML/coursera-1/week-2/exercies/ex3	1	nvim	:nvim .
+pane	Rudra	1	:Deployment	0	:-	1	:/Users/bharatsoni/Documents/personal/jarvis2/server	0	node	:node /usr/local/bin/nodemon index.js
+pane	Rudra	1	:Deployment	0	:-	2	:/Users/bharatsoni/Documents/personal/jarvis2/client	1	zsh	:
+pane	Rudra	2	:Client	1	:*	1	:/Users/bharatsoni/Documents/personal/jarvis2/client	1	nvim	:nvim .
+pane	Rudra	3	:Server	0	:	1	:/Users/bharatsoni/Documents/personal/jarvis2/server	1	nvim	:nvim .
+pane	Rudra	4	:Demo App	0	:	1	:/Users/bharatsoni/Documents/personal/git-war-demo	1	nvim	:nvim .
+window	ML	1	1	:*	acde,210x50,0,0,1
+window	ML	2	0	:#	acdf,210x50,0,0,2
+window	Rudra	1	0	:-	4270,210x50,0,0{105x50,0,0,3,104x50,106,0,4}
+window	Rudra	2	1	:*	ace2,210x50,0,0,5
+window	Rudra	3	0	:	ace3,210x50,0,0,6
+window	Rudra	4	0	:	ace6,210x50,0,0,9
+state	Rudra	

@@ -1,9 +1,12 @@
+tmux\n
 \n
+brew install tmux
+nvim 
+tmux session
+source ~/.zshrc
 cd server
-nvim ~/.tmux.conf.local
 tmux show -g default-command
 ls
-npm run build && rm -Rf ../server/artefacts/ && cp -R build/ ../server/artefacts
 set -g status off
 tmux set -g status off
 tmux list-keys
@@ -23,7 +26,6 @@ git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 tmux attach
 brew install reattach-to-user-namespace
-nvim .tmux
 nvim .tmux.conf.local
 \ue0b0
 echo -en "\ue0b0"
@@ -51,7 +53,6 @@ cd ~/
 git clone git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux a -t Rudra
-nvim ~/.tmux
 cd .tmux
 open .
 tmux source ~/.tmux.conf.local
@@ -60,5 +61,4 @@ open ~/.tmux
 tmux source ~/.tmux.conf
 nvm ~/.tmux.conf.local
 cd ~/Documents/personal/jarvis2
-cd client
 cd ~/Documents/personal/ML/coursera-1/week-2/exercies/ex3

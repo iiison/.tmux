@@ -298,19 +298,21 @@ set -g mode-keys vi
 
 
 ### Plugins {{{
-set -g @plugin 'tmux-plugins/tpm'
-set -g @plugin 'tmux-plugins/tmux-sensible'
-set -g @plugin 'tmux-plugins/tmux-continuum'
-set -g @plugin 'tmux-plugins/tmux-resurrect'
-set -g @plugin 'samoshkin/tmux-plugin-sysstat'
+# set -g @plugin 'tmux-plugins/tpm'
+# set -g @plugin 'tmux-plugins/tmux-sensible'
+# set -g @plugin 'tmux-plugins/tmux-continuum'
+# set -g @plugin 'tmux-plugins/tmux-resurrect'
+# set -g @plugin 'samoshkin/tmux-plugin-sysstat'
+# set -g @plugin 'xamut/tmux-spotify'
 
-# set -g @tpm_plugins '          \
-#   tmux-plugins/tpm             \
-#   tmux-plugins/tmux-sensible   \
-#   tmux-plugins/tmux-continuum  \
-#   tmux-plugins/tmux-resurrect  \
-#   samoshkin/tmux-plugin-sysstat  \
-# '
+set -g @tpm_plugins '           \
+  tmux-plugins/tpm              \
+  tmux-plugins/tmux-sensible    \
+  tmux-plugins/tmux-continuum   \
+  tmux-plugins/tmux-resurrect   \
+  samoshkin/tmux-plugin-sysstat \
+  xamut/tmux-spotify            \
+'
 # }}}
 
 ### Plugins Settings {{{
@@ -338,5 +340,6 @@ run '~/.tmux/plugins/tmux-resurrect/resurrect.tmux'
 run '~/.tmux/plugins/tmux-sensible/sensible.tmux'
 run '~/.tmux/plugins/tmux-continuum/continuum.tmux'
 run '~/.tmux/plugins/tmux-plugin-sysstat/sysstat.tmux'
+run '~/.tumx/plugins/tmux-spotify/tmux-spotify.tmux'
 #
 
